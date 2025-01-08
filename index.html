@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <header>
-        <h1>Relógio Online</h1>
-        <button>
-            C
-        </button>
-    </header>
     <div class="container">
-        <span>00 :</span>
-        <span>00 :</span>
-        <span>00 </span>
+        <header>
+            <button id="btBack">
+                <i class="bi bi-brightness-alt-high-fill"></i>
+            </button>
+            <h1>Relógio Online</h1>
+            <button id="btBack">
+                <i class="bi bi-brightness-alt-high-fill"></i>
+            </button>
+        </header>
+        <div class="relogio">
+            <p class="temp"> <span id="hora"> 00 </span> : </p>
+            <p class="temp"> <span id="min"> 00 </span> : </p>
+            <p class="temp"> <span id="seg"> 00 </span> </p>
+        </div>
     </div>
 
     <script src="script.js"></script>
