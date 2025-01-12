@@ -9,22 +9,43 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 90vh; */
     font-family: "Nunito", serif;
 }
 .container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
+
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: 1rem auto;
 }
-.relogio {
+
+.dropdown .btn {
+    margin-left: -3rem;
+}
+
+header .btBack {
+    border: none;
+    font-size: 2.2rem;
+    background: transparent;
+}
+
+
+.relogio, .calendario {
     display: flex;
-    margin:5rem auto;
+    align-items: center;
+    justify-content: center;
+    margin:5rem 0 1.6rem 0;
     font-size: 7rem;
+}
+.calendario {
+    font-size: 2rem;
+}
+.relogio .temp {
+    margin: 0 .5rem;
 }
