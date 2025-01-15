@@ -29,10 +29,16 @@ header {
     margin-left: -3rem;
 }
 
-header .btBack {
+header .btBack, #btCaixa {
     border: none;
     font-size: 2.2rem;
     background: transparent;
+    
+}
+#btCaixa {
+    font-size: 1.4rem;
+    color: black;
+    padding-left: 40px;
 }
 
 
@@ -48,4 +54,28 @@ header .btBack {
 }
 .relogio .temp {
     margin: 0 .5rem;
+}
+#mes, #ano {
+    margin-left: 10px;
+}
+
+@media (max-width: 770px){
+    .relogio {
+        display: flex;
+        font-size: 6rem;
+    }
+} 
+@media (max-width: 500px){
+    .relogio {
+        display: flex;
+        font-size: 3.8rem;
+        margin-bottom: 0rem;
+    }
+} 
+@media (max-width: 331px){
+    .relogio {
+        display: flex;
+        font-size: 2.9rem;
+        margin-bottom: 0rem;
+    }
 }
